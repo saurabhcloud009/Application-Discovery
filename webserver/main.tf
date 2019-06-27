@@ -16,9 +16,10 @@ resource "aws_security_group" "instance" {
 
   }
 
-resource "aws_key_pair" "tauhid" {
+resource "aws_key_pair" "" {
  key_name ="tauhid"
- public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvWLP90s6xDqeQii5I4ftZsGsfeG9mj00MAFTlRhZeT1UIWvRYp9X2Fx5LzV26OkoDW8JoEkZfrfVYscc5YUO+22ar3dw+NYMnJRKl0XhJqwxK0dyuoDaLh+5YaGEHcbQwo6ntoTthXnegIhTrPsLMLy0ROmT1YIoFuvXSgGOYMiW+8Oh1UbrskI7cyfxPzrq4QSU0rOEa16paLvlK2sKRX//5LGPGzLPT47jhSrhIfbcYBgdRh9fC6dRkEyFZHp5JSDRDXwe5p5E8mMD5Br+X5npSvpLJBR9/bmPe5imi5NDpJoP34obIb92g8dscN3vg3ETIXCBdlQmAZiO/2Pt5 tauhid"
+ public_key = ""
+
 }
 
 
